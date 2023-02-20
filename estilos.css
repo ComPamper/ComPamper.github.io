@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;1,500&display=swap');
+*{
+    font-family: "Lora";
+    margin: 0;
+    padding: 0;
+}
+
+.skills .habils .Javascript{
+    width: 0%;
+    animation: 2s Javascript forwards;
+}
+@keyframes Javascript {
+    0%{width: 0%;}
+    100%{width: 95%;}
+}
+
+.skills .habils .html{
+    width: 0%;
+    animation: 2s html forwards;
+}
+@keyframes html {
+    0%{width: 0%;}
+    100%{width: 85%;}
+}
+
+.skills .habils .CSS{
+    width: 0%;
+    animation: 2s CSS forwards;
+}
+@keyframes CSS {
+    0%{width: 0%;}
+    100%{width: 83%;}
+}
+
+.skills .habils .Python {
+    width: 0%;
+    animation: 2s Python forwards;
+}
+@keyframes Python {
+    0%{width: 0%;}
+    100%{width: 81%;}
+}
+ 
+
+
+html{
+    scroll-behavior: smooth;
+}
+.inicio{
+    background: linear-gradient(rgb(1, 0, 5) , rgb(9, 9, 32));
+    background-size: cover;
+    background-position:center center ;
+    color: rgb(224, 214, 214);
+}
+.inicio .parte-inicio{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.inicio .parte-inicio .data{
+    padding-bottom: 130px;
+}
+.inicio .parte-inicio .data h1{
+    font-size: 3rem;
+    letter-spacing: 4.5px;
+}
+
+.inicio .parte-inicio .data h2{
+    font-size: 25px;
+    font-weight: normal;
+    letter-spacing: 3px;
+    margin-top: -5px;
+}
+
+.inicio .parte-inicio .foto {
+   position: relative;
+}
+
+.inicio .parte-inicio .foto img{
+    max-width: 200px;
+    border: 4px solid;
+    border-radius: 48px;
+    border-color: rgb(230, 234, 236);
+    position: absolute;
+    left: 42%;
+}
+
+.Resumen{
+    background: linear-gradient(rgb(9, 9, 32) ,rgb(90, 89, 89));
+    color: rgb(224, 214, 214);
+    padding: 25px 0 55px 0;
+    text-align: center;
+}
+
+.Resumen .contenido-Resumen {
+    margin: auto;
+    padding: 0 10px;
+}
+
+#titulo-Resumen{
+    text-transform: uppercase;
+}
+.Resumen .contenido-Resumen .Descrip{
+    color: grey;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.Resumen .contenido-Resumen p{
+    max-width: 900px;
+    margin: auto;
+    color: rgb(214, 214, 134);
+}
+
+.Resumen .contenido-Resumen .contenedor{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.Resumen .contenido-Resumen .contenedor .contenido{
+    width: 40%;
+}
+
+.Resumen .contenido-Resumen .contenedor .contenido i{
+    color:rgb(238, 238, 53) ;
+}
+
+
+.experiencia{
+
+    background: linear-gradient(rgb(90, 89, 89), rgb(9, 9, 32));
+    color: rgb(224, 214, 214);
+    padding: 50px 20px;
+}
+
+.experiencia .contenido-experiencia{
+    max-width: 900px;
+    margin: auto;
+}
+
+.experiencia h2{
+font-size: 48px;
+font-family:"Playfair";
+text-align: center;
+padding: 20px 0;
+text-transform: uppercase;
+}
+
+
+.experiencia .fila{
+    display: flex; 
+    justify-content: space-between;  
+}
+
+.experiencia .fila .col-izq{
+    width: 75%;
+    padding: 0 40px;
+    border-left: 3px solid rgba(13, 16, 58, 0.288);
+    margin-left: 20px;
+
+}
+
+.experiencia .fila .item-izq{
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color: rgb(10, 4, 31);
+    position: relative;
+}
+
+.experiencia .fila h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.experiencia .fila .item-izq .lugar{
+    color: rgb(238, 238, 53);
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+}
+
+ .experiencia .fila .item-izq .fecha{
+    color: rgb(238, 238, 53);
+    display: block;
+    margin-bottom: 12px;
+ }
+
+ .experiencia .fila p{
+    line-height: 24px;
+ }
+
+.experiencia .fila .item-izq .conectori{
+    height: 2px;
+    background-color: rgb(238, 238, 53);
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    left: -47px;
+    z-index: 5;
+}
+
+ .experiencia .fila .item-izq .circuloi{
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: rgb(238, 238, 53);
+    position: relative;
+    bottom: 4px;
+ }
+
+ .skills{
+    background: linear-gradient(rgb(9, 9, 32), rgb(90, 89, 89));
+    color: #fff;
+    padding: 50px 20px;
+}
+
+ .skills .contenido-habilidades{
+    max-width: 1100px;
+    margin: auto;
+}
+.skills h2{
+    font-size: 48px;
+    font-family: "Playfair";
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0;
+
+}
+.skills .fila{
+    display: flex;
+    justify-content: space-between;
+}
+.skills .fila .col{
+    width: 50%;
+    padding: 0 20px;
+}
+
+.skills .habils span{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+.skills .habils .barra-skill{
+    height: 8px;
+    width: 80%;
+    background-color: #08121b;
+    position: relative;
+    margin-bottom: 30px;
+}
+.skills .habils .progreso{
+    background-color: rgb(238, 238, 53);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+}
+.skills .habils .barra-skill span{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(42, 87, 124);
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    top: -17px;
+    right: -15px;
+    font-size: 14px;
+}
+ 
+@media screen and (max-width:700px){
+.Resumen .contenido-Resumen .contenedor{
+    display: block;
+}
+}
